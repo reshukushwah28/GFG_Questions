@@ -15,8 +15,7 @@ class Solution {
             else if (arr[mid] == 1) {
                 mid++;
             } 
-            else { // arr[mid] == 2
-                // swap arr[mid] and arr[high]
+            else { 
                 int temp = arr[mid];
                 arr[mid] = arr[high];
                 arr[high] = temp;
